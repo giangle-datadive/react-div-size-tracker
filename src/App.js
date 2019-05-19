@@ -1,24 +1,21 @@
 import React from 'react';
-import logo from './logo.svg';
+import DivSizeTracker from './components/DivSizeTracker';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <DivSizeTracker style={{ height: '50vh', width: '100%', }}>
+        {(width, height) => (
+          <div style={{ width, height }} className="test">
+            {`${width} x ${height}`}
+          </div>
+        )}
+      </DivSizeTracker>
+
+      <div className="resize-it">
+        Try resize the window
+      </div>
     </div>
   );
 }
