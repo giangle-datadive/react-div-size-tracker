@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/react-div-size-tracker/static/css/main.fa49e679.chunk.css",
+    "main.js": "/react-div-size-tracker/static/js/main.325aa22e.chunk.js",
+    "main.js.map": "/react-div-size-tracker/static/js/main.325aa22e.chunk.js.map",
+    "runtime~main.js": "/react-div-size-tracker/static/js/runtime~main.a6941dd8.js",
+    "runtime~main.js.map": "/react-div-size-tracker/static/js/runtime~main.a6941dd8.js.map",
+    "static/js/2.d042e1ad.chunk.js": "/react-div-size-tracker/static/js/2.d042e1ad.chunk.js",
+    "static/js/2.d042e1ad.chunk.js.map": "/react-div-size-tracker/static/js/2.d042e1ad.chunk.js.map",
+    "index.html": "/react-div-size-tracker/index.html",
+    "precache-manifest.5de613978b822a43586ec86490dc4985.js": "/react-div-size-tracker/precache-manifest.5de613978b822a43586ec86490dc4985.js",
+    "service-worker.js": "/react-div-size-tracker/service-worker.js",
+    "static/css/main.fa49e679.chunk.css.map": "/react-div-size-tracker/static/css/main.fa49e679.chunk.css.map"
+  }
+}
